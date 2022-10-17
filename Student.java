@@ -5,7 +5,7 @@ public class Student {
     
     public Student(Teacher tc){
         this.myTeacher = tc;
-        this.name = "default";
+        this.name = "khoapham";
     }
 
     public String getName() {
