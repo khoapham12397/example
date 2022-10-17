@@ -4,11 +4,16 @@ import java.util.List;
 public class Teacher {
     private String name;
     private String email;
+    private String major;   
+    // o day cu vi du nhu la the nay duoc :??
+    // dung vay do 
+    
     private List<Student> students;
 
     public Teacher(String name, String email) {
         this.name = name;
         this.email = email;
+        this.major = "math";
         students = new ArrayList<>();
     }
     public void addStudent(Student st){
