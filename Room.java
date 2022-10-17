@@ -5,5 +5,4 @@ public class Room {
         tc.addStudent(st);
         System.out.println(st.getTeacher().getName());
     }
-    // dau tien cu thu add .     
 }
